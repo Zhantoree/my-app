@@ -1,15 +1,15 @@
 import React from "react";
-import './Nav.css';
+import s from './Nav.module.css';
 
 const Nav = () => {
     return(
         <nav>
-            <div className="nav-item"><a href="#"></a>Profile</div>
-            <div className="nav-item"><a href="#"></a>Messages</div>
-            <div className="nav-item"><a href="#"></a>News</div>
-            <div className="nav-item"><a href="#"></a>Music</div>
-            <div className="nav-item"><a href="#"></a><br/></div>
-            <div className="nav-item"><a href="#"></a>Settings</div>
+            <div className={s.item}><a href="#"></a>Profile</div>
+            <div className={s.item}><a href="#"></a>Messages</div>
+            <div className={s.item}><a href="#"></a>News</div>
+            <div className={s.item}><a href="#"></a>Music</div>
+            <div className={s.item}><a href="#"></a><br/></div>
+            <div className={s.item}><a href="#"></a>Settings</div>
 
         </nav>
     );

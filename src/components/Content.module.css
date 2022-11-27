@@ -10,7 +10,7 @@
     height: 100px;
     margin: 20px;
 }
-.background-image {
+.background_image {
     width: 100%;
     height: 30%;
 }
@@ -41,6 +41,6 @@
     border: 0;
     margin-right: 5%;
 }
-.comments-question {
+.comments_question {
     display: flex;
 }
