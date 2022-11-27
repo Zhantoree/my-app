@@ -10,77 +10,10 @@ h1,h2,h3,h4,h5,h6{
   font-weight: lighter;
 }
 
-/*Header*/
-header {
-  background-color: #19b14d;
-  margin: 20px 0;
-}
-
-header img {
-  max-width: 150px;
-}
-
-/*Main*/
+/*Main that divides nav and content*/
 .main {
   display: flex;
 }
 
-/*Nav*/
-nav {
-  background-color: #19b14d;
-  margin: 0 20px 0 0 ;
-  width: 25%;
-}
 
-.nav-item {
-  margin: 15px 10px;
-  color: white;
-  font-size: 25px;
-}
 
-/*Content*/
-.content {
-  width: 100%;
-  border: 5px #19b14d solid ;
-  font-weight: 400;
-}
-
-.avatar {
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-}
-.background-image {
-  width: 100%;
-  height: 30%;
-}
-.info{
-  display: flex;
-}
-.comments h3{
-  padding: 0px 30px;
-}
-.comments h4{
-  background-color: lightgrey;
-  padding: 15px 30px;
-}
-.round {
-
-  width: 50px;
-  height: 50px;
-  border: 1px solid white;
-  border-radius: 50%;
-  background-color: #ddae0e;
-}
-.comments button{
-  display: block;
-  background-color: #19b14d;
-  margin-left: auto;
-  font-size: 20px;
-  color: white;
-  border: 0;
-  margin-right: 5%;
-}
-.comments-question {
-  display: flex;
-}

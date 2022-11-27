@@ -1,0 +1,12 @@
+/*Nav*/
+nav {
+    background-color: #19b14d;
+    margin: 0 20px 0 0 ;
+    width: 25%;
+}
+
+.nav-item {
+    margin: 15px 10px;
+    color: white;
+    font-size: 25px;
+}

@@ -1,0 +1,9 @@
+/*Header*/
+header {
+    background-color: #19b14d;
+    margin: 20px 0;
+}
+
+header img {
+    max-width: 150px;
+}
