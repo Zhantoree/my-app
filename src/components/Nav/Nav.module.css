@@ -1,0 +1,34 @@
+/*Nav*/
+nav {
+    background-color: #19b14d;
+    margin: 0 20px 0 0 ;
+    width: 25%;
+}
+
+.item {
+    padding: 20px 10px;
+    text-align: center;
+    border: 5px solid #82CD47;
+    border-bottom: 0;
+}
+
+.item:last-child {
+    border: 5px solid #82CD47;
+}
+
+.item a{
+    color: white;
+    font-size: 25px;
+}
+
+.item.active{
+    background-color: #5da049;
+}
+
+.item:hover {
+    background-color: #379237;
+}
+
+.item.active a{
+    color: #F0FF42;
+}
