@@ -3,7 +3,12 @@
   max-width: 1200px;
   font-size: 16px;
   font-family: Arial, serif;
+}
 
+.pages {
+  width: 100%;
+  border: 5px #19b14d solid ;
+  font-weight: 400;
 }
 
 a {
@@ -21,6 +26,8 @@ h1,h2,h3,h4,h5,h6{
 .main {
   display: flex;
 }
+
+
 
 
 
