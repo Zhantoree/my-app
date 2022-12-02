@@ -8,8 +8,8 @@ const Content = () => {
             <img className={s.background_image}
                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-nIVi5tIOdZXyrCWcc5M76F6QlfLR_VrEIQ&usqp=CAU"
                  alt=""/>
-            <Post />
-            <Post />
+            <Post name={"Vasya Pupkin"} birth={"09.05.1995"} city={"Las Vegas"} avatar={"https://cdn-icons-png.flaticon.com/512/147/147133.png"}/>
+            <Post name={"Dmitry Pulya"} birth={"07.04.1998"} city={"NewYork"} avatar={"https://www.w3schools.com/w3images/avatar2.png"}/>
 
             <div className={s.comments}>
                 <h3>My posts</h3>
